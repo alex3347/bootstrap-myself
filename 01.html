@@ -9,10 +9,17 @@
 	</head>
 	<body>
 		<div class="input-group">
-			<span class="input-group-btn">
-				<button class="btn btn-default" type="button">搜索</button>
-			</span>
-			<input type="text" class="form-control" placeholder="Search for..."/>
+			<div class="input-group-btn">
+				<button class="btn btn-default dropdown-toggle" data-toggle="dropdown">搜索<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+					<li>Google</li>
+					<li>百度</li>
+					<li>搜狗</li>
+					<li class="divider"></li>
+					<li>人民搜索</li>
+				</ul>
+			</div>
+			<input type="text" class="form-control" />
 		</div>
 	</body>
 </html>
