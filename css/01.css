@@ -1,0 +1,35 @@
+@charset "utf-8";
+/*通用基础样式*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+body{
+	font-size:12px;
+	font-family: "微软雅黑","黑体",Arial;
+	color: #666;
+	background: #fff;
+}
+a{
+	text-decoration: none;
+	color: #666;
+}
+a:hover{
+	text-decoration: underline;
+	color: #E4393C;
+}
+.lt{
+	float: left;
+}
+.rt{
+	float: right;
+}
+.clr{
+	clear: both;
+}
+
+/*非通用样式*/
+#section-top{
+	border-bottom: 1px solid #f2f2f2;
+}
