@@ -54,3 +54,44 @@ a:hover{
 	margin-left: -15px;
 	margin-right: -15px;
 }
+.social li {
+	float: left;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	list-style: none;
+	display: inline-block;
+	margin: 0;
+	position: relative;
+	padding: 0;
+}
+.social li a{
+	color: #9ca5ab;
+}
+.fa{
+	display: inline-block;
+	font: normal normal normal 14px/1 FontAwesome;
+	font-size: inherit;
+}
+.fa-facebook:before{
+	content:"\f09a";
+}
+.fa-twitter:before {
+	content: "\f099"
+}
+.fa-instagram:before {
+	content: "\f16d"
+}
+.fa-youtube:before {
+	content: "\f167"
+}
+#block-tl-general-user-links-tl-general .content {
+	float: right;
+}
+#block-tl-general-user-links-tl-general .content a {
+	color: #515050;
+	position: relative;
+	top: 0.5em;
+	font-size: 0.8em;
+}

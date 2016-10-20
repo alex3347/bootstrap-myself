@@ -5,6 +5,7 @@
 		<meta http-equiv="content-type" content="text/html" charset="UTF-8">
 		<link rel="shortcut icon" href="images/01/favicon.ico" />
 		<link rel="stylesheet" type="text/css" href="css/01.css"/>
+		<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet"><!--引入awesome字体库-->
 		<title>bootstrap demo1 </title>
 		<script src="js/jquery.min.js"></script>
 		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -22,9 +23,30 @@
 									<div class="social clearfix">
 										<ul>
 											<li>
-												<a href="#" target="_blank" data-placement="auto" data-toggle="tooltip" >
+												<a href="#" target="_blank" data-placement="auto" data-toggle="tooltip" data-original-title="facebook">
 													<span>
-														<i class="fa"></i>
+														<i class="fa fa-facebook"></i>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank" data-placement="auto" data-toggle="tooltip" data-original-title="twitter">
+													<span>
+														<i class="fa fa-twitter"></i>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank" data-placement="auto" data-toggle="tooltip" data-original-title="instagram">
+													<span>
+														<i class="fa fa-instagram"></i>
+													</span>
+												</a>
+											</li>
+											<li>
+												<a href="#" target="_blank" data-placement="auto" data-toggle="tooltip" data-original-title="youtube">
+													<span>
+														<i class="fa fa-youtube"></i>
 													</span>
 												</a>
 											</li>
@@ -33,9 +55,20 @@
 								</div>
 							</div>
 						</div>
+						<div class="region region-social-info col-xs-12 col-sm-8 col-md-5 col-lg-5">
+							<div id="block-tl-general-user-links-tl-general" class="block block-tl-general">
+							  <div class="inner"></div>
+							  <div  class="content">
+							    <a href="#">Login</a>&nbsp;&nbsp; &nbsp; &nbsp; <a href="#">Register</a>    
+							  </div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
+			<script>
+			   $(function () { $("[data-toggle='tooltip']").tooltip(); });
+			</script>
 		</div>
 	</body>
 </html>
