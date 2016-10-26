@@ -211,3 +211,13 @@ a:hover{
 .col-xs-1 {
 	width: 8.33333333%
 }
+.active2{
+	box-sizing: content-box;
+	position: relative;
+	width: 200px;
+	height: 100px;
+	padding-right: 15px;
+	padding-left: 15px;
+	top:15px;
+	border: 1px solid #ADADAD;
+}
