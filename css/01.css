@@ -154,8 +154,8 @@ a:hover{
 	#section-header .dexp-menu>ul.menu>li>a,
 	#section-header .dexp-menu>ul.menu>li>span.nolink {
 		line-height: 100px;
-		font-size: 13px;
-		font-weight: 400;
+		font-size: 1em;
+		font-weight: 300;
 		-webkit-transition: line-height 0.3s linear;
 		-moz-transition: line-height 0.3s linear;
 		-o-transition: line-height 0.3s linear;
@@ -165,6 +165,7 @@ a:hover{
 		margin: 0 20px;
 		position: relative;
 		text-decoration: none;
+		text-transform: uppercase;
 	}
 	#section-header .dexp-menu>ul.menu>li>a:before,
 	#section-header .dexp-menu>ul.menu>li>span.nolink:before {
