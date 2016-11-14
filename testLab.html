@@ -46,4 +46,14 @@
 			</div>
 		</div>
 	</body>
+	<script>
+		const preloadImage=function(path){
+			return new Promise(function (resolve, reject){
+				var image=new Image();
+				image.onload=resolve;
+				image.onerror=regect;
+				image.src=path;
+			});
+		}
+	</script>
 </html>
