@@ -1,0 +1,221 @@
+.clr {
+    clear: both;
+}
+a:active,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+    color: #333;
+}
+@mixin bac {
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+header ul {
+    height: 77px;
+    background-color: #65a031;
+    position: relative;
+    .left {
+        position: absolute;
+        left: 0;
+        top: 0;
+    }
+    .right {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .search {
+        display: inline-block;
+        width: 34px;
+        height: 34px;
+        margin-left: 20px;
+        margin-top: 24px;
+        @include bac;
+        background-image: url("../img/search.png");
+    }
+    .logo-wrap {
+        height: 70px;
+        padding-top: 7px;
+    }
+    .logo {
+        display: block;
+        margin: 0 auto;
+        width: 62px;
+        height: 68px;
+        @include bac;
+        background-image: url("../img/logo.png");
+    }
+    .user {
+        display: inline-block;
+        float: right;
+        width: 30px;
+        height: 31px;
+        margin-right: 18px;
+        margin-top: 24px;
+        @include bac;
+        background-image: url("../img/user.png");
+    }
+    .shop {
+        display: inline-block;
+        width: 35px;
+        height: 32px;
+        margin-right: 22px;
+        margin-top: 24px;
+        @include bac;
+        background-image: url("../img/shop.png");
+    }
+}
+.swiper {
+    width: 640px;
+    height: 240px;
+    @include bac;
+    background-image: url("../img/swiper.png");
+}
+.swiper-nav ul {
+    margin: 16px 18px 26px;
+    overflow: hidden;
+    li {
+        margin: 0 34px;
+        float: left;
+    }
+    div:first-child {
+        width: 82px;
+        height: 82px;
+        line-height: 82px;
+        text-align: center;
+        border-radius: 50%;
+        span {
+            display: inline-block;
+            vertical-align: middle;
+            @include bac;
+        }
+    }
+}
+
+.choose {
+    background-color: #8796d9;
+    span {
+        width: 36px;
+        height: 36px;
+        background-image: url("../img/choose.png");
+    }
+}
+.file {
+    background-color: #fe7064;
+    span {
+        width: 36px;
+        height: 42px;
+        background-image: url("../img/file.png");
+    }
+}
+.phone {
+    background-color: #1bbb71;
+    span {
+        width: 26px;
+        height: 42px;
+        background-image: url("../img/phone.png");
+    }
+}
+.person {
+    background-color: #ffa319;
+    span {
+        width: 42px;
+        height: 40px;
+        background-image: url("../img/person.png");
+    }
+}
+.text {
+    text-align: center;
+    margin-top: 8px;
+    font-family: "微软雅黑";
+    color: rgb(138,138,138);
+    font-size: 20px;/*px*/
+}
+.content{
+    margin: 0 18px;
+    li{
+        width: 594px;
+        height: 230px;
+        margin-bottom: 18px;
+        border: 4px solid #f1f1f1;/*no*/
+        border-radius: 4px;/*no*/
+        background: url(../../dis/img/background.png) 0 0 repeat-x;
+        div:first-child{
+            float: left;
+            width: 360px;
+            margin-left: 16px;
+            dl{
+                dt{
+                    width: 58px;
+                    height: 39px;
+                    @include bac;
+                }
+                dd:nth-child(2){
+                    margin-top: 20px;
+                   font-size: 26px;/*px*/
+                   font-weight: bold;
+                   color: #484744;
+                }
+                dd:nth-child(3){
+                    margin-top: 5px;
+                   font-size: 18px;/*px*/
+                   color: #4d4c49;
+                }
+                dd:nth-child(4){
+                   margin-top: 19px;
+                   font-size: 21px;/*px*/
+                   color: #4d4c49;
+                   span{
+                       font-size: 50px;/*px*/
+                       color: #6c8937;
+                   }
+                }
+            }
+        }
+        div:last-child{
+            float: left;
+            width: 186px;
+            height: 186px;
+            margin-top: 20px;
+            @include bac;
+        }
+    }
+    .xin{
+        div:first-child{
+            dl{
+                dt{
+                    background-image: url("../img/xin.png");
+                }
+            }
+        }
+        div:last-child{
+            background-image: url("../img/1.png");
+        }
+    }
+    .jing{
+        div:first-child{
+            dl{
+                dt{
+                    background-image: url("../img/jing.png");
+                }
+            }
+        }
+        div:last-child{
+            background-image: url("../img/2.png");
+        }
+    }
+    .tehui{
+        div:first-child{
+            dl{
+                dt{
+                    background-image: url("../img/tehui.png");
+                }
+            }
+        }
+        div:last-child{
+            background-image: url("../img/3.png");
+        }
+    }
+}
